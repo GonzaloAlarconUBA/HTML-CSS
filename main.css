@@ -1,0 +1,11 @@
+/* Para poder agrupar caracteristicas vamos a crear las clases */
+/* .clase */
+
+.encabezado{
+    text-align: center;
+}
+
+.listas{
+    display: flex;
+    justify-content: space-evenly;
+}
