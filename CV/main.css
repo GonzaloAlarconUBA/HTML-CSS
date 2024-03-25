@@ -1,0 +1,28 @@
+.encabezado{
+    text-align:center;
+    background-color: khaki;
+    width: 80%;
+}
+
+.separador{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    height: 20%;
+}
+
+.caja-exp{
+    text-align: left;
+    background-color: blueviolet;
+    width: 80%;
+}
+
+.caja-contacto{
+    width: 25%;
+}
+
