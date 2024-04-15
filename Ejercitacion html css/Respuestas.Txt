@@ -1,0 +1,16 @@
+1. para cambiar el comportamiento
+ de los elementos en un contenedor se usa = display: flex;
+
+2. para definir espacio entre los elementos hijos se usa 
+gap: ...px;
+
+3. Justify content solo se puede usar con flex 
+mientras align-content solo se usa con flex direction
+
+4.Se usa grid-template-columns para las columnas y 
+         grid-template-rows    para las filas
+
+5.El display:grid tiene limitaciones de ancho
+  Mientras el display:flex tiene limitaciones de altura
+
+6.Se pueden utilizar un class
