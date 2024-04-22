@@ -1,9 +1,65 @@
-.horizontal{
-    display: flex;
+/*Centrados*/
+
+.centrado {
+  text-align: center;
+}
+.centradoVeneno {
+  text-align: center;
+  background-color: rgb(100, 5, 155);
+  border-radius: 25px;
+}
+.centradoFantasma {
+  text-align: center;
+  background-color: rgb(36, 1, 102);
+  border-radius: 25px;
+}
+.centradoNormal {
+  text-align: center;
+  background-color: rgb(124, 88, 58);
+  border-radius: 25px;
+}
+.centradoRoca {
+  text-align: center;
+  background-color: rgb(156, 101, 29);
+  border-radius: 25px;
+}
+.centradoAgua {
+  text-align: center;
+  background-color: rgb(51, 156, 156);
+  border-radius: 25px;
 }
 
-.grillas{
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 300px 300px 300px;
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-auto-rows: 350px, 350px, 350px;
+  gap: 20px;
+}
+.fotodinamica {
+  width: 100%;
+  aspect-ratio: 9/9; /*Opcional, le da estructura a las fotos*/
+  /*Si es widescreen o si es tipo retrato*/
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.centrapokemons {
+  text-align: center;
+}
+
+/* CAJAS */
+.cajitaVioleta {
+  background-color: rgb(35, 8, 70);
+  border: 10px solid black;
+  border-radius: 25px;
+}
+.cajitaAzul {
+  background-color: rgb(10, 27, 104);
+  border: 10px solid black;
+  border-radius: 25px;
+}
+.cajitaCeleste {
+  background-color: rgb(14, 85, 143);
+  border: 10px solid black;
+  border-radius: 25px;
 }
