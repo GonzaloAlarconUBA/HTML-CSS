@@ -1,0 +1,50 @@
+.centrado {
+  display: flex;
+  justify-content: center;
+}
+
+.rojo {
+  background-color: rgba(172, 27, 27, 0.801);
+  border: 10px solid rgb(87, 3, 3);
+  border-radius: 30px;
+}
+
+.azul {
+  background-color: rgb(21, 30, 156);
+  border: 10px solid rgb(6, 5, 82);
+  border-radius: 30px;
+}
+
+.verde {
+  background-color: rgb(35, 138, 49);
+  border: 10px solid rgb(6, 63, 11);
+  border-radius: 30px;
+}
+
+.amarillo {
+  background-color: rgb(223, 197, 50);
+  border: 10px solid rgb(97, 99, 11);
+  border-radius: 30px;
+}
+
+.violeta {
+  background-color: rgb(105, 51, 206);
+  border: 10px solid rgb(45, 4, 119);
+  border-radius: 30px;
+}
+
+.naranja {
+  background-color: rgb(223, 142, 51);
+  border: 10px solid rgb(145, 91, 10);
+  border-radius: 30px;
+}
+p {
+  margin-block-start: 0cm;
+  margin-block-end: 0cm;
+}
+
+h1 {
+  font-size: 0cm;
+  margin-block-start: 0cm;
+  margin-block-end: 0cm;
+}

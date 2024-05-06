@@ -1,0 +1,27 @@
+.centrado {
+  display: flex;
+  justify-content: center;
+}
+
+.amarillo {
+  background-color: rgb(179, 180, 77);
+  border: 10px solid rgb(117, 119, 11);
+  border-radius: 30px;
+}
+
+.verde {
+  background-color: rgb(52, 165, 58);
+  border: 10px solid rgb(5, 48, 14);
+  border-radius: 30px;
+}
+
+p {
+  margin-block-start: 0cm;
+  margin-block-end: 0cm;
+}
+
+h1 {
+  font-size: 0cm;
+  margin-block-start: 0cm;
+  margin-block-end: 0cm;
+}
