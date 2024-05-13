@@ -13,5 +13,4 @@ function number2() {
 function calculate() {
   let resultado = number1() + number2(); //para ejecutar una funcion al final debemos poner los parentesis
   console.log(resultado);
-  document.getElementById("resultado").textContent = calculate;
 }
