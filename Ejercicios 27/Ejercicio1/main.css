@@ -1,0 +1,21 @@
+.foto {
+    width: 20%;
+    aspect-ratio: 9/9; /*Opcional, le da estructura a las fotos*/
+    /*Si es widescreen o si es tipo retrato*/
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.encabezado {
+    text-align: center;
+    width: 30%;
+    font-size:xx-large;
+    background-color: rgb(255, 0, 0);
+    border: 10px solid black;
+    border-radius: 25px;
+}
+
+.lista {
+    border: 5px solid black;
+    gap: 10px;
+}
